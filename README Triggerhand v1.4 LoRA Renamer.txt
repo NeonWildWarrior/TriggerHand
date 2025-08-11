@@ -18,7 +18,6 @@
     GitHub: https://github.com/neonwildwarrior
     YouTube: https://youtube.com/@neonwildwarrior
 
-
 ------------------------------------------------------------
 TriggerHand is A tiny (~16 KB) Python utility that scans your LoRA 
 `.safetensors` files, extracts trigger words and base model 
@@ -60,11 +59,8 @@ Dry run by default.
 Apply changes:
     python Lora_Keyword_finder_renamer.py "path\to\LoRA\folder" --apply
 
-
 Options
-
     --top N → max number of trigger keywords to include (default 5).
-
     --preview N → show up to N planned renames before running (default 20).
 
 Example:
@@ -85,9 +81,12 @@ After-
 redDress_v2 [trigger=red_dress+fantasy_art] [model=SD15].safetensors
 animePonyX [model=Pony].safetensors
 
+============================================================
 Notes:
     Works best with LoRAs from platforms like CivitAI that include proper metadata.
-    If a LoRA has no metadata, it will be skipped.
+    If a LoRA has no metadata, it will be skipped. 
+    Not all creators put their trigger keywords or model in their metadata so results will vary. 
+    It's been useful for me to find out info on my forgotten about LoRA's.
 
 CSV Report
  Every run generates a CSV in the target folder:
@@ -104,3 +103,4 @@ LORA ORGANIZATION TIPS
 - Back up before bulk renaming
 
 -NeonWildWarrior
+
