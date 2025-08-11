@@ -102,7 +102,75 @@ LORA ORGANIZATION TIPS
 - Add your own tags to filenames for quick searchability when you download so you don't rely on this tool
 - Back up before bulk renaming
 
+Here's a sample Lora Organization Tree
+📂 LoRAs
+│
+├── 📂 SD1.5
+│   ├── 📂 Styles
+│   │   ├── Pony
+│   │   ├── Illustrious
+│   │   ├── DreamShaper
+│   │   └── Realistic Vision
+│   ├── 📂 Characters
+│   │   ├── Anime Characters
+│   │   ├── Realistic
+│   │   └── OCs / Custom
+│   ├── 📂 Clothing & Fashion
+│   │   ├── Armor
+│   │   ├── Casual
+│   │   └── Fantasy Outfits
+│   └── 📂 ControlNet & Utility
+│       ├── Pose
+│       ├── Depth
+│       └── Edge / Line Art
+│
+├── 📂 SDXL
+│   ├── 📂 Styles
+│   │   ├── Illustrious XL
+│   │   ├── DreamShaper XL
+│   │   └── Realistic Vision XL
+│   ├── 📂 Characters
+│   │   ├── Anime Characters
+│   │   ├── Realistic
+│   │   └── OCs / Custom
+│   ├── 📂 Clothing & Fashion
+│   │   ├── Armor
+│   │   ├── Casual
+│   │   └── Fantasy Outfits
+│   └── 📂 ControlNet & Utility
+│       ├── Pose XL
+│       ├── Depth XL
+│       └── Edge / Line Art XL
+│
+├── 📂 Flux
+│   ├── 📂 Styles
+│   │   ├── Flux Illustration
+│   │   └── Flux Realism
+│   ├── 📂 Characters
+│   │   ├── Anime Characters
+│   │   ├── Realistic
+│   │   └── OCs / Custom
+│   └── 📂 Clothing & Fashion
+│       ├── Armor
+│       ├── Casual
+│       └── Fantasy Outfits
+│
+└── 📂 WAN2.1
+    ├── 📂 Styles
+    │   ├── WAN Illustration
+    │   └── WAN Realism
+    ├── 📂 Characters
+    │   ├── Anime Characters
+    │   ├── Realistic
+    │   └── OCs / Custom
+    └── 📂 Clothing & Fashion
+        ├── Armor
+        ├── Casual
+        └── Fantasy Outfits
+
+
 -NeonWildWarrior
+
 
 
 
