@@ -9,7 +9,6 @@
     TriggerHand — LoRA Keyword Finder & Renamer
 ============================================================
 
-    LoRA Keyword Finder + Renamer
     ------------------------------------------
     Scavenger utility for pulling trigger tags
     and base model info from LoRA metadata.
@@ -77,37 +76,31 @@ OUTPUT
 - Updated filenames with trigger words + base model info
 - CSV log saved in the scanned folder
 
-Example
-Before
-
+Example:
+Before-
 redDress_v2.safetensors
 animePonyX.safetensors
 
-After
-
+After-
 redDress_v2 [trigger=red_dress+fantasy_art] [model=SD15].safetensors
 animePonyX [model=Pony].safetensors
 
-Notes
-
+Notes:
     Works best with LoRAs from platforms like CivitAI that include proper metadata.
-
     If a LoRA has no metadata, it will be skipped.
 
 CSV Report
-
  Every run generates a CSV in the target folder:
-
     old_path, new_path, triggers, kw_count, model
-
     hit_type (both / triggers / model)
-
 You can use this file to undo changes manually if needed.
+
 ------------------------------------------------------------
 LORA ORGANIZATION TIPS
 ------------------------------------------------------------
 - Manually choose the correct folder location every time you download a lora
 - Separate LoRAs by base model first (1.5, XL, Flux, etc.)
 - Add your own tags to filenames for quick searchability when you download so you don't rely on this tool
-
 - Back up before bulk renaming
+
+-NeonWildWarrior
