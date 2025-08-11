@@ -106,6 +106,8 @@ You can use this file to undo changes manually if needed.
 ------------------------------------------------------------
 LORA ORGANIZATION TIPS
 ------------------------------------------------------------
+- Manually choose the correct folder location every time you download a lora
 - Separate LoRAs by base model first (1.5, XL, Flux, etc.)
-- Add your own tags to filenames for quick searchability
+- Add your own tags to filenames for quick searchability when you download so you don't rely on this tool
+
 - Back up before bulk renaming
