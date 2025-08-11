@@ -15,8 +15,7 @@
     Forged for the post-collapse archives.
     ------------------------------------------
     Created by: NeonWildWarrior
-    GitHub: https://github.com/neonwildwarrior
-    YouTube: https://youtube.com/@neonwildwarrior
+       GitHub | YouTube
 
 ------------------------------------------------------------
 TriggerHand is A tiny (~16 KB) Python utility that scans your LoRA 
@@ -103,4 +102,5 @@ LORA ORGANIZATION TIPS
 - Back up before bulk renaming
 
 -NeonWildWarrior
+
 
