@@ -18,6 +18,7 @@
     GitHub: https://github.com/neonwildwarrior
     YouTube: https://youtube.com/@neonwildwarrior
 
+Quick Youtube tutorial on this tool: https://youtu.be/jJ9pTP3LCJE
 ------------------------------------------------------------
 TriggerHand is A tiny (~16 KB) Python utility that scans your LoRA 
 `.safetensors` files, extracts trigger words and base model 
@@ -86,7 +87,7 @@ Notes:
     Works best with LoRAs from platforms like CivitAI that include proper metadata.
     If a LoRA has no metadata, it will be skipped. 
     Not all creators put their trigger keywords or model in their metadata so results will vary. 
-    It's been useful for me to find out info on my forgotten about LoRA's.
+    It's been useful for me to find out info on my forgotten about LoRAs.
 
 CSV Report
  Every run generates a CSV in the target folder:
@@ -133,6 +134,7 @@ LoRAs/
 
 
 -NeonWildWarrior
+
 
 
 
